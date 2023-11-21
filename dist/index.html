@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my bookshop</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Open+Sans&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <a href="#" class="logo">Bookshop</a>
+          <nav>
+            <ul class="header__row__nav">
+              <li class="header__row__nav_activ">books</li>
+              <li>audiobooks</li>
+              <li>Stationery & gifts</li>
+              <li>blog</li>
+            </ul>
+          </nav>
+          <ul class="header__row__button">
+            <li><img src="img/user.svg" alt="пользователи" /></li>
+            <li><img src="img/search.svg" alt="найти" /></li>
+            <li>
+              <img src="img/shop bag.svg" alt="корзина" />
+              <div class="header__shopbag-counter"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="slider">
+          <div class="slider__images"></div>
+          <div class="slider__dots"></div>
+          <a href="#" class="slider__link1"
+            ><img src="img/promo1.png" alt="рекламное предложение"
+          /></a>
+          <a href="#" class="slider__link2"
+            ><img src="img/promo2.png" alt="рекламное предложение"
+          /></a>
+        </section>
+      </div>
+        <section class="books">
+          <ul class="books__categories"></ul>
+          <div class="container">
+          <div class="books__cards"></div>
+        </section>
+        <div class="container">
+        <div class="container-load">
+          <button class="container-load__button-load">Load more</button>
+        </div>
+      </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
